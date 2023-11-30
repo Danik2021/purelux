@@ -1,0 +1,30 @@
+.wrapper {
+	max-width: 1440px;
+}
+
+.header {
+	min-height: 200px;
+	background: #1b1b1b;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo {
+	font-size: 48px;
+	font-family: Redressed;
+	color: #edf6f9;
+	font-weight: 400;
+	line-height: normal;
+	font-style: normal;
+}
+
+.nav_menu {
+	display: flex;
+	justify-content: space-between;
+	width: 80px;
+}
+
+.back_header3 {
+	width: 100%;
+}
