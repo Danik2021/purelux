@@ -1,5 +1,6 @@
 .wrapper {
 	max-width: 1440px;
+	height: 2000px;
 }
 
 .header {
@@ -27,4 +28,59 @@
 
 .back_header3 {
 	width: 100%;
+}
+
+.main_carousel_1 {
+	background-image: url(img/header-back_03.png);
+	width: 1440px;
+	height: 648px;
+}
+
+.main_info {
+	position: relative;
+	left: 384px;
+	top: 176px;
+	border-radius: 16px;
+	background: rgba(237, 246, 249, 0.8);
+	box-shadow: 0px 0px 8px 2px rgba(170, 153, 141, 0.05);
+	width: 672px;
+	height: 296px;
+}
+
+.h1 {
+	color: #1b1b1b;
+	text-align: center;
+	font-family: IBM Plex Serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 64px;
+	padding: 30px 0px 24px 0px;
+}
+
+.text_under_h1 {
+	color: #1b1b1b;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 42px;
+	padding: 0px 0px 30px 0px;
+}
+
+.button1 {
+	position: relative;
+	text-align: center;
+	width: 432px;
+	padding: 16px 10px;
+	border-radius: 8px;
+	background: #83c5be;
+	color: #1b1b1b;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	margin: 48px 0px 0px 120px;
 }
