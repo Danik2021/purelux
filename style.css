@@ -1,6 +1,7 @@
 .wrapper {
 	max-width: 1440px;
 	height: 2000px;
+	border: 2px solid #1b1b1b;
 }
 
 .header {
@@ -28,6 +29,10 @@
 
 .back_header3 {
 	width: 100%;
+}
+
+.main_section_2 {
+	padding: 144px 0px 118px 0px;
 }
 
 .main_carousel_1 {
@@ -58,6 +63,16 @@
 	padding: 30px 0px 24px 0px;
 }
 
+.h2 {
+	color: #000;
+	font-family: IBM Plex Serif;
+	font-size: 40px;
+	font-style: normal;
+	line-height: 56px;
+	font-weight: 600;
+	padding: 0px 0px 48px 144px;
+}
+
 .text_under_h1 {
 	color: #1b1b1b;
 	text-align: center;
@@ -83,4 +98,116 @@
 	font-weight: 600;
 	line-height: 32px;
 	margin: 48px 0px 0px 120px;
+	box-shadow: none;
+}
+
+.scroll_1 {
+	display: flex;
+	justify-content: space-evenly;
+	/* column-gap: 48px; */
+}
+
+.back_pngwing_1 div {
+	color: #000;
+	text-align: center;
+	font-family: IBM Plex Sans Condensed;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.back_pngwing_2 div {
+	color: #000;
+	text-align: center;
+	font-family: IBM Plex Sans Condensed;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.back_pngwing_3 div {
+	color: #000;
+	text-align: center;
+	font-family: IBM Plex Sans Condensed;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.back_pngwing_4 div {
+	color: #000;
+	text-align: center;
+	font-family: IBM Plex Sans Condensed;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.back_pngwing_1,
+.back_pngwing_2,
+.back_pngwing_3,
+.back_pngwing_4:nth-child(4) {
+	color: #000;
+	text-align: center;
+	font-family: IBM Plex Sans Condensed;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.back_pngwing_1 {
+	display: flex;
+	width: 312px;
+	height: 378px;
+	padding: 16px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	border-radius: 16px;
+	background: #dad7cd;
+}
+
+.back_pngwing_2 {
+	display: flex;
+	width: 312px;
+	height: 378px;
+	padding: 16px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	border-radius: 16px;
+	background: #dad7cd;
+}
+
+.back_pngwing_3 {
+	display: flex;
+	width: 312px;
+	height: 378px;
+	padding: 16px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	border-radius: 16px;
+	background: #dad7cd;
+}
+
+.back_pngwing_4 {
+	display: flex;
+	width: 312px;
+	height: 378px;
+	padding: 16px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	border-radius: 16px;
+	background: #dad7cd;
 }
