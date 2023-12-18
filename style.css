@@ -282,7 +282,19 @@
 
 .scroll_1_0 {
 	display: flex;
-	justify-content: space-evenly;
+	width: 1152px;
+	gap: 48px;
+	padding: 48px 0px 0px 144px;
+}
+
+.text_scroll {
+	color: #000;
+	text-align: center;
+	font-family: Open Sans Hebrew;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
 }
 
 .h2_sec_4 {
@@ -292,5 +304,5 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 56px;
-	padding: 144px 864px 48px 144px;
+	padding: 144px 0px 48px 75px;
 }
