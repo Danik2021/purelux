@@ -1,6 +1,6 @@
 .wrapper {
 	max-width: 1440px;
-	height: 5000px;
+	height: max-content;
 	border: 2px solid #1b1b1b;
 }
 
@@ -364,9 +364,6 @@
 	margin-top: 8px;
 }
 
-.logo {
-}
-
 .burger_menu-nav {
 	position: fixed;
 	display: flex;
@@ -421,6 +418,48 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: 28px;
+}
+
+.footer {
+	max-width: auto;
+	height: 348px;
+	background: #1b1b1b;
+	margin-top: 109px;
+}
+
+.con_footer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.con_footer > div {
+	gap: 48px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.social_footer {
+	display: flex;
+	column-gap: 48px;
+	margin-top: 67px;
+}
+
+.con_footer > div > ul {
+	display: flex;
+	column-gap: 48px;
+	color: #f2f9fa;
+	font-family: Open Sans Hebrew;
+	font-size: 20px;
+}
+
+.phone {
+	font-size: 32px;
+	font-family: "Lato", sans-serif;
+	text-decoration: none;
+	color: #f2f9fa;
 }
 
 .hide {
